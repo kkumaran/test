@@ -1,0 +1,7 @@
+hello -- a hello world program
+
+usage: hello
+
+returns text "Hello World\n" to the stdout
+
+Maintained by k. kumar skam4kumar@gmail.com
