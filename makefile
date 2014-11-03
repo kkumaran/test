@@ -1,13 +1,13 @@
 all:
 	make release
 
-release: hello.c
+release: src/hello.c
 	make clean
-	gcc hello.c -o build/release/hello
+	gcc src/hello.c -o build/release/hello
 
-debug: hello.c
+debug: src/hello.c
 	make clean
-	gcc -g hello.c -o build/debug/hello
+	gcc -g src/hello.c -o build/debug/hello
 
 clean:
 	rm -f build/debug/*
